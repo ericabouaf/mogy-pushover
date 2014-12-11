@@ -1,0 +1,31 @@
+{
+  "name": "mogy-pushover",
+  "main": "./index.js",
+  "version": "0.1.0",
+  "description": "Pushover activity for Mogy",
+  "author": {
+      "name": "Eric Abouaf",
+      "email": "eric.abouaf@gmail.com"
+  },
+  "keywords": [
+      "mogy-activity",
+      "pushover"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/neyric/mogy-pushover.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-pushover": "^0.2.2"
+  },
+  "activities": {
+    "pushover": {
+        "defaultTaskHeartbeatTimeout": "NONE",
+        "defaultTaskScheduleToCloseTimeout": "NONE",
+        "defaultTaskScheduleToStartTimeout": "NONE",
+        "defaultTaskStartToCloseTimeout": "NONE",
+        "description": "Send a pushover notification"
+    }
+  }
+}
